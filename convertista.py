@@ -1,4 +1,4 @@
-#! /usr/bin/env python
+#! /anaconda3/bin/python
 
 # converts temperature to fahrenheit or celsius
 
@@ -21,6 +21,7 @@ def fahrenheit_to_celsius(temp):
 	temp = temp * converter
 	return temp
 
+print("Welcome to the Python Temperature Converter")
 choice = "p"
 temp = 0.0
 float(temp)
@@ -35,5 +36,3 @@ while choice != "q":
     elif choice != "q":
         print_options()
     choice = input("option: ")
-                      
-                   
